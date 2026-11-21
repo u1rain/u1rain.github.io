@@ -266,6 +266,19 @@ time::before {
   box-shadow: 0 0 10px 2px #93b5cf !important;
   border-radius: 15px !important;
 }
+#header .half-header-menu {
+  margin-top: 10px !important;
+}
+#header .half-header-menu a {
+  cursor: pointer !important;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#header .half-header-menu a {
+  margin: 0 4px !important;
+}
 #container {
   position: relative;
   min-height: 100%;
